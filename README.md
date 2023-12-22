@@ -50,3 +50,9 @@ junit_family=legacy
 
 - [テストインサイト](https://circleci.com/docs/ja/insights-tests/)
 
+## プロジェクトが suspend された場合
+このプロジェクトでは、テストは(実際にテストを実行しているのではなく)sleepを実行しています。
+その結果、CPUリソースを無駄に消費していると認識され、次のようなエラー(We did not run this pipeline because the project has been susbended)が出力され、ワークフローが実行できなくなることがあります。
+![the project has been suspended](/images/suspended-circleci.png)
+この場合、エラーメッセージにも書かれていますが、サポートにお問い合わせいただくことで、suspend 状態を解除することができます(Freeプランであってもサポートの利用は可能です)。日本語でお問い合わせいただけます。
+- [サポートセンター](https://support.circleci.com/hc/ja)
