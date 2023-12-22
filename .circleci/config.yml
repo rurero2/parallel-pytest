@@ -5,7 +5,7 @@ orbs:
 
 jobs:
   build-and-test:
-    parallelism: 5
+    parallelism: 3
     docker:
       - image: cimg/python:3.11
     resource_class: small  
