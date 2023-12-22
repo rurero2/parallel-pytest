@@ -43,6 +43,7 @@ junit_family=legacy
 ![Rerun failed test](/images/rerun-failed-test-circleci.png)
 
 これにより、再試行するテストの実行時間(今回の例でいえば40秒)でテストを完了することができます。
+![Failed tests rerun](/images/failed-tests-rerun-circleci.png)
 
 - [失敗したテストのみを再実行する](https://circleci.com/docs/ja/rerun-failed-tests/)
 
